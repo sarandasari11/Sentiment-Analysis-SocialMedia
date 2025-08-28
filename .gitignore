@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Data
+data/raw/
+data/processed/
+
+# Models
+models/*.pkl
+
+# Outputs
+outputs/
+
+# Environment / Config
+*.env
+config.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
